@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|boletos|bs3|ckeditor|css|embrapag|theme|fonts|images|js|materiais|manutencao.php|load-balancer.html)
+RewriteRule ^(.*)$ index.php/$1 [L]
